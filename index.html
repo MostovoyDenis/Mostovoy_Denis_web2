@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<title>Mostovoy_Denis_web</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_solo">
+		<div id="logo"> <img src="https://i.imgur.com/UK5Y3Lx.jpeg" width="100" height="100" </div>
+        </div>
+		<div id="name"><br>
+		<h1 class="text_header">Через слезы на учебу</h1>
+        </div>
+    </header>
+
+    <nav class="menu">
+            <ul>
+                <li><a href=#task1>Ссылки</a></li>
+                <li><a href=#table>Таблица</a></li>
+                <li><a href=#form>Форма</a></li>
+            </ul>
+    </nav>
+ 
+    <div class="equal">
+        <h2 id="task1">Ссылки:</h2>
+        <a id="comeback"></a>
+    
+    <ol> 
+        <li><a href="http://example.com">Абсолютная гиперссылкa на главную страницу сайта example.com </a></li>
+        <li><a href="https://example.com">Абсолютная на главную сайта example.com в протоколе https </a></li>
+        <li><a href="ftp://google.com/fallout/file1.txt">Ссылка на файл на сервере FTP без авторизации</a></li>
+        <li><a href="ftp://test:password@admin.ru/data/file2.txt">Ссылка на файл на сервере FTP с авторизацией</a></li>
+        <li><a href="taylor.html#lyrics" target="_blank">Ссылку на фрагмент страницы некоторого сайт</a></li>  
+        <li><a href="#“twice”">Ссылка на фрагмент текущей страницы</a></li>
+        <li><a href="https://www.onlinestore.ru?product=t-shitt&color=white" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+        <li><a href="#task1" title="task">Ссылки</a></li>
+        <li><a href="#form" title="form">Форма</a></li>
+        <li><a>Ссылка без "href"</a></li>
+        <li><a href="">Ссылка с пустым "href"</a></li>
+        <li><a href="http://example.com" rel = "nofollow"> Ссылка, по которой запрещен переход поисковикам</a></li>
+        <li><a href="http://example.com" rel = "noindex">Запрещенная для индексации поисковиками</a></li>
+        <li>Дотеры оценят этот трек
+            <br>
+                <img src = "https://i.imgur.com/09YPp1P.jpeg" width="500" height="350" alt="twice" usemap = "#figures" alt = "wikipedia galaxy or spotify artist">
+                <map name = "figures">
+                    <area shape = "rect" coords = "0,0,110,80" href = "https://www.youtube.com/watch?v=BCBZjUZFu6E" alt = "square">
+                    <area shape = "circle" coords = "360,190,150" href = "https://www.youtube.com/watch?v=BCBZjUZFu6E&t=149s" alt = "circle">
+                </map>
+        </li>
+        <li><a href="index.html">Относительная ссылка</a></li>
+        <li><a href="about/about.html">Относительная ссылка на старницу в каталоге about</a></li>
+        <li><a href="../index.html">Относительная ссылка уровнем выше</a></li>
+        <li><a href="../../index.html">Относительная ссылка на 2 уровня выше</a></li>
+        <li><a href="/">Сокращенная ссылка на главную</a></li>
+        <li><a href="/srr.html">Сокращенная ссылка на внутреннюю</a></li>
+    </ol>
+
+<h1 id="table">Таблица</h1>
+		<table>
+    		<tr>
+        <th>1 столбик</th>
+        <th>2 столбик</th>
+        <th>3 столбик</th>
+			</tr>
+            <tr>
+                <td><a href="https://www.tiktok.com/ru-RU">TikTok</a></td>
+                <td><a href="https://www.instagram.com">Instagram</a></td>
+                <td><a href="https://vk.com">Vk</a></td>
+                    </tr>
+                    <tr>
+                <td colspan="2"><a href="https://www.ozon.ru/">ozone</a> </td>
+                <td rowspan="2"><a href="https://aliexpress.ru">Aliexpress</a></td>
+                    </tr>
+                    <tr>
+                <td><a href="https://dribbble.com">dribble</a></td>
+                <td><a href="https://www.wildberries.ru/">Wildberries</a></td>
+                    </tr>
+                    <tr>
+                <td><a href="https://youtube.com/">youtube</a></td>
+                <td><a href="https://www.google.com/">Google</a></td>
+                <td><a href="https://mail.ru/">mailru</a></td>
+                    </tr>
+                    <tr>
+                <td colspan="3"><a href="https://ya.ru/"> yandex </a></td>
+            </tr>
+                                        <tr>
+                                    <td colspan="3"><a href="https://ya.ru/"> yandex </a></td>
+                                </tr>
+			<tr>
+        <td colspan="3"><a href="https://ya.ru/"> yandex </a></td>
+    </tr>
+</table>    
+<h1 id="form">Форма</h1>
+<form action="/" method="POST">
+
+    <label>
+        Имя<br>
+        <input name="field-name-1" value="Имя">
+    </label><br>
+
+    <label>
+        email:<br>
+        <input name="field-email" value="@gmail.com" type="email">
+    </label><br>
+
+    <label>
+        Дата рождения<br>
+        <input name="field-date" value="1111-11-11" type="date">
+    </label><br>
+
+    Пол:<br>
+    <label><input type="radio" checked="checked" name="radio-group-1" value="men">
+        Мужчина</label><br>
+    <label><input type="radio" name="radio-group-1" value="female">
+        Женщина</label><br>
+    <label><input type="radio" name="radio-group-1" value="other">
+        МаминБандит</label><br>
+	<br>
+
+   Что ты смотришь чаще всего:<br>
+    <label><input type="radio" checked="checked" name="radio-group-2" value="1">
+        ютуб</label>
+    <label><input type="radio" checked="checked" name="radio-group-2" value="2">
+        сериалы</label>
+    <label><input type="radio" checked="checked" name="radio-group-2" value="3">
+        аниме</label>
+    <label><input type="radio" checked="checked" name="radio-group-2" value="4">
+        тикиток</label>
+    <label><input type="radio" checked="checked" name="radio-group-2" value="5">
+        фильмы</label>
+    <br>
+
+    <label>
+        Какие игры тебе нравятся?
+        <br>
+        <select name="field-name-4[]" multiple="multiple">
+            <option value="song1" selected="selected">Шутеры</option>
+            <option value="song2">Моба</option>
+            <option value="song3">Стратегии</option>
+            <option value="song3">Приключения</option>
+            <option value="song3">Не играю</option>
+        </select>
+    </label><br>
+
+    <label>
+        Как дела?:
+        <br>
+        <textarea name="field-name-2" style="margin: 0px; height: 35px; width: 187px;">Ну ответь же мне наконец-то...</textarea>
+    </label><br>
+
+    <label><input type="checkbox" checked="checked" name="check-1">
+        Я согласен(a)</label><br>
+
+    <input type="submit" value="send">
+</form>
+</div>
+<br/>
+<footer>Mostovoy Denis 24/2 2022</footer>
+</body>
+</html>

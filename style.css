@@ -1,0 +1,145 @@
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border: 5px groove  rgba(119, 21, 34, 0.733);
+	text-align: center;
+}
+div{
+    
+}
+.header_solo
+{
+    width: 100%;
+    height: 130px;
+    padding: 0 0 0 0;
+    max-width:  960px;
+    margin: 0 auto 0 auto;
+	    text-align: center;
+
+}
+.text_header
+{
+    font-family: 'Space Mono', monospace;
+    color:rgba(0, 0, 0, 0.733);
+    font-size: 00px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+#logo
+{
+    margin-top: 23px;
+    width: 150px;
+    height: 100px;
+    float: left;
+	margin-right: 175px;
+}
+
+#name {
+    padding:  0 0 0 0;
+    float:  left;
+}
+
+#name h1 {
+    height:  100%;
+    line-height: 60px;
+    margin-top: 25px;
+}
+
+
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0 20px 0 16px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.733);
+
+}
+
+
+body{
+    text-align: center;
+    margin-bottom: 0;
+    background: rgb(0, 0, 0, 0.733);
+    font-family: 'Space Mono', monospace;;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px 1em 0 1em;
+}
+
+
+a
+{
+    color: rgba(255, 255, 255, 0.933);
+
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    
+}
+
+nav li {
+    float:left;
+}
+
+ul{
+    list-style: none;
+    text-align:left;
+}
+
+ol{
+    display:inline-table;
+}
+
+li{
+    margin-bottom: 4px;
+    text-align:left;
+}
+table{
+    width: 100%;
+    font-family: 'Space Mono', monospace;;
+}
+table,th,td{
+    border: 1px solid rgba(218, 39, 63, 0.733);
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    height:50px;
+}
+tr:nth-child(odd)
+{
+    background: rgba(0, 0, 0, 0.733);
+    padding: 4px;
+}
+
+tr:nth-child(even)
+{
+    background: rgba(168, 29, 48, 0.733);
+    padding: 4px;
+}
+footer
+{
+    height: 70px;
+    width:  100%;
+    background-color: rgba(119, 21, 34, 0.733);
+    border: 5px groove  rgba(0, 0, 0, 0.733); 
+}
+.equal{
+    padding: 3px;
+    max-width: 960px;
+    margin: 10px auto;
+    height: auto;
+    background: linear-gradient(45deg, black, rgb(119, 21, 34, 0.733));
+}
